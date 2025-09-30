@@ -1,0 +1,15 @@
+[package]
+name = "ebay_pricer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", features = ["json", "gzip"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+clap = { version = "4", features = ["derive"] }
+csv = "1"
+urlencoding = "2"
+base64 = "0.22"
+dotenv = "0.15"

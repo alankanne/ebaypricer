@@ -1,0 +1,35 @@
+# Rust build artifacts
+/target/
+/**/*.rs.bk
+
+# Cargo lockfile (skip for libraries if you want reproducible builds)
+/Cargo.lock
+
+# Environment / secrets
+.env
+
+# Generated data
+*.csv
+
+# macOS junk
+.DS_Store
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+
+# Node/npm (if you ever add frontend in same workspace)
+node_modules/
+dist/
